@@ -1,7 +1,9 @@
 import h5py
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import math
+
+tf.disable_v2_behavior()
 
 def load_dataset():
     train_dataset = h5py.File('datasets/train_signs.h5', "r")
