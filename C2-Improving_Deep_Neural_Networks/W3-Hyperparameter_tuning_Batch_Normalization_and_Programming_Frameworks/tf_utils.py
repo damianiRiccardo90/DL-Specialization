@@ -1,9 +1,7 @@
 import h5py
 import numpy as np
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 import math
-
-tf.disable_v2_behavior()
 
 def load_dataset():
     train_dataset = h5py.File('datasets/train_signs.h5', "r")
@@ -83,7 +81,7 @@ def predict(X, parameters):
               "W3": W3,
               "b3": b3}
     
-    x = tf.placeholder(dtype=tf.float32, shape=[12288, 1])
+    x = tf.placeholder("float", [12288, 1])
     
     z3 = forward_propagation_for_predict(x, params)
     p = tf.argmax(z3)
@@ -101,6 +99,7 @@ def forward_propagation_for_predict(X, parameters):
     X -- input dataset placeholder, of shape (input size, number of examples)
     parameters -- python dictionary containing your parameters "W1", "b1", "W2", "b2", "W3", "b3"
                   the shapes are given in initialize_parameters
+
     Returns:
     Z3 -- the output of the last LINEAR unit
     """
