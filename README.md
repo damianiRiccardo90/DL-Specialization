@@ -2,7 +2,7 @@
 
 _Programming assignments collection from [**Coursera Specialization on Deep Learning**](https://www.coursera.org/specializations/deep-learning)._
 
-- [Course1] [**Neural Networks and Deep Learning**](https://www.coursera.org/learn/neural-networks-deep-learning)
+- [[Course1](/DL-Specialization/C1-Neural_Networks_and_Deep_Learning)] [**Neural Networks and Deep Learning**](https://www.coursera.org/learn/neural-networks-deep-learning)
     1. [Part1] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/damianiRiccardo90/DL-Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W2-Neural_Networks_Basics/Python_Basics_With_Numpy_v3a.ipynb) **Python basics with Numpy** :heavy_check_mark:
     2. [Part2] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/damianiRiccardo90/DL-Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W2-Neural_Networks_Basics/Logistic_Regression_with_a_Neural_Network_mindset_v6a.ipynb) **Logistic Regression with a Neural_Network mindset** :heavy_check_mark:
     3. [Part3] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/damianiRiccardo90/DL-Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W3-Shallow_Neural_Networks/Planar_data_classification_with_onehidden_layer_v6c.ipynb) **Planar data classification with one hidden layer** :heavy_check_mark:
